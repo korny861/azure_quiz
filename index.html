@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Zertifizierungsfragen Karteikarten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Azure Quiz</h1>
+    <div id="cardContainer" class="card-container">
+        <div id="card" class="card">
+            <div class="card-face card-front">
+                <p id="questionText">Frage wird geladen...</p>
+            </div>
+            <div class="card-face card-back">
+                <p id="answerText">Antwort wird geladen...</p>
+            </div>
+        </div>
+        <div id="optionsContainer" class="options-container">
+            </div>
+        <div id="feedback" class="feedback"></div>
+        <div id="counter">
+            <div class="counterBox" id="right">R</div>
+            <div class="counterBox" id="wrong">W</div>
+        </div>
+    </div>
+
+
+
+    <div id="ratingContainer" class="rating-container">
+        Bewertung:
+        <button class="rating-button" onclick="rateQuestion(true)">Richtig</button>
+        <button class="rating-button" onclick="rateQuestion(false)">Falsch</button>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
