@@ -9,8 +9,10 @@ body {
     margin: 20px;
     perspective: 1000px; /* Für den Flip-Effekt */
     background-color: #aaffaa;
+    width: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -108,3 +110,18 @@ body {
 #wrong{
     background-color: #ff5555;
 }
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: lightblue;
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fab {
+    font-size: 2em; /* Verdoppelt die Standardgröße */
+    color: #333; /* Setzt die Farbe auf Dunkelgrau */
+  }
