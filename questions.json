@@ -559,5 +559,61 @@
       ],
       "correctAnswer": "Ein Sicherheitsprozess, der zwei oder mehr Nachweismethoden für die Benutzeridentifizierung erfordert.",
       "explanation": "MFA erhöht die Sicherheit, indem es zusätzliche Verifizierungsschritte beim Anmelden erfordert."
-    }
-  ]
+    },
+      {
+        "question": "Was beschreibt Cloud Computing am besten?",
+        "options": [
+          "Das Speichern von Daten auf lokalen Festplatten.",
+          "Die Bereitstellung von Rechenressourcen über das Internet nach Bedarf.",
+          "Die Verwendung eines einzelnen, leistungsstarken Servers in einem Unternehmen.",
+          "Software, die nur offline funktioniert."
+        ],
+        "correctAnswer": "Die Bereitstellung von Rechenressourcen über das Internet nach Bedarf.",
+        "explanation": "Cloud Computing ist die Bereitstellung von IT-Ressourcen (wie Server, Speicher, Datenbanken, Netzwerk, Software) über das Internet ('die Cloud') mit nutzungsbasierter Bezahlung."
+      },
+      {
+        "question": "Welches Cloud-Bereitstellungsmodell wird von einer einzelnen Organisation exklusiv genutzt und betrieben?",
+        "options": [
+          "Public Cloud",
+          "Private Cloud",
+          "Hybrid Cloud",
+          "Community Cloud"
+        ],
+        "correctAnswer": "Private Cloud",
+        "explanation": "Eine Private Cloud ist eine Cloud-Infrastruktur, die ausschließlich für eine einzelne Organisation betrieben wird, entweder intern oder durch einen Drittanbieter."
+      },
+      {
+        "question": "Welches Modell beschreibt eine Kombination aus Public und Private Clouds?",
+        "options": [
+          "Community Cloud",
+          "Multi-Cloud",
+          "Hybrid Cloud",
+          "Federated Cloud"
+        ],
+        "correctAnswer": "Hybrid Cloud",
+        "explanation": "Eine Hybrid Cloud kombiniert eine Private Cloud (lokale Infrastruktur) mit einer Public Cloud, sodass Daten und Anwendungen zwischen ihnen ausgetauscht werden können."
+      },
+      {
+        "question": "Welches Servicemodell bietet dem Kunden die größte Kontrolle über das Betriebssystem und die installierte Software?",
+        "options": [
+          "Software as a Service (SaaS)",
+          "Platform as a Service (PaaS)",
+          "Infrastructure as a Service (IaaS)",
+          "Function as a Service (FaaS)"
+        ],
+        "correctAnswer": "Infrastructure as a Service (IaaS)",
+        "explanation": "Bei IaaS mietet der Kunde die grundlegende Infrastruktur (VMs, Speicher, Netzwerke) und hat die volle Kontrolle über das Betriebssystem und die darauf installierten Anwendungen."
+      },
+      {
+        "question": "Microsoft 365 (früher Office 365) ist ein Beispiel für welches Cloud-Servicemodell?",
+        "options": [
+          "IaaS",
+          "PaaS",
+          "SaaS",
+          "FaaS"
+        ],
+        "correctAnswer": "SaaS",
+        "explanation": "SaaS liefert Softwareanwendungen über das Internet, typischerweise auf Abonnementbasis. Der Anbieter verwaltet die gesamte zugrunde liegende Infrastruktur und Plattform."
+      }
+    ]   
+    
