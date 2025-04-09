@@ -5,6 +5,7 @@ const answerText = document.getElementById('answerText');
 const optionsContainer = document.getElementById('optionsContainer');
 const feedbackElement = document.getElementById('feedback');
 const ratingContainer = document.getElementById('ratingContainer');
+const questNumber = document.getElementById('questionNumber');
 
 let currentQuestionIndex = 0;
 let currentQuestion;
@@ -16,12 +17,35 @@ let countRight = 0;
 const rightBox = document.getElementById('right');
 let countWrong = 0;
 const wrongBox = document.getElementById('wrong');
+const resultBox = document.getElementById('result');
 let calcRightPercent = 0;
 function setCounterBox (){
     rightBox.innerHTML = '---';
     wrongBox.innerHTML = '---';
 }
 setCounterBox();
+let result = 0;
+function calcResult(){
+    if (countRight === 0) {
+        result = 0;
+        console.log(`aktuelles Ergebnis ${result}%`);
+    } else {
+        result = Math.floor((countRight / (countRight + countWrong)) * 100);
+        console.log(`aktuelles Ergebnis: ${result}%`);
+    }
+    if (result === '---') {
+        resultBox.classList.remove('resultBad');
+        resultBox.classList.remove('resultGood');
+    } else if (result >=80 ) {
+        resultBox.classList.remove('resultBad');
+        resultBox.classList.add('resultGood');
+    } else {
+        resultBox.classList.remove('resultGood');
+        resultBox.classList.add('resultBad');
+    }
+    resultBox.innerHTML = `${result}%`;
+}
+
 
 // Funktion zum Mischen des Fragen-Arrays (Fisher-Yates Algorithmus)
 function shuffleArray(array) {
@@ -53,6 +77,7 @@ function loadQuestion() {
         currentQuestion = shuffledQuestions[currentQuestionIndex];
         questionText.textContent = currentQuestion.question;
         answerText.textContent = currentQuestion.explanation;
+        questNumber.textContent = currentQuestion.id;
         optionsContainer.innerHTML = ''; // Vorherige Optionen entfernen
         // Antwortoptionen erstellen
         currentQuestion.options.forEach(option => {
@@ -81,12 +106,14 @@ function checkAnswer(selectedAnswer) {
         countRight++;
         console.log("Richtig: "+countRight);
         rightBox.innerHTML = `Richtig: ${countRight}`;
+        calcResult();
     } else {
         feedbackElement.textContent = `Falsch. Die richtige Antwort ist: ${currentQuestion.correctAnswer}`;
         feedbackElement.style.color = 'red';
         countWrong++;
         console.log("Falsch: "+countWrong);
         wrongBox.innerHTML = `Falsch: ${countWrong}`;
+        calcResult();
     }
     card.classList.add('flipped'); // Karte umdrehen, um die Antwort zu zeigen
     setTimeout(() => {

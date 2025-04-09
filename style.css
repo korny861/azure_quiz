@@ -119,6 +119,16 @@ body {
 #wrong{
     background-color: #ff5555;
 }
+#result{
+    background-color: ;
+}
+.resultGood{
+    background-color: #99ff99;
+}
+.resultBad{
+    background-color: #ff9999;
+}
+
 
 .footer{
     position: fixed;
