@@ -3,7 +3,7 @@ const card = document.getElementById('card');
 const questionText = document.getElementById('questionText');
 const answerText = document.getElementById('answerText');
 const optionsContainer = document.getElementById('optionsContainer');
-const feedbackElement = document.getElementById('feedback');
+const feedbackElement = document.getElementById('feedbackContainer');
 const ratingContainer = document.getElementById('ratingContainer');
 const questNumber = document.getElementById('questionNumber');
 
@@ -77,7 +77,7 @@ function loadQuestion() {
         currentQuestion = shuffledQuestions[currentQuestionIndex];
         questionText.textContent = currentQuestion.question;
         answerText.textContent = currentQuestion.explanation;
-        questNumber.textContent = currentQuestion.id;
+        questNumber.textContent = `# ${currentQuestion.id}`;
         optionsContainer.innerHTML = ''; // Vorherige Optionen entfernen
         // Antwortoptionen erstellen
         currentQuestion.options.forEach(option => {
@@ -102,7 +102,7 @@ function loadQuestion() {
 function checkAnswer(selectedAnswer) {
     if (selectedAnswer === currentQuestion.correctAnswer) {
         feedbackElement.textContent = "Richtig!";
-        feedbackElement.style.color = 'green';
+        feedbackElement.style.color = '#0a2';
         countRight++;
         console.log("Richtig: "+countRight);
         rightBox.innerHTML = `Richtig: ${countRight}`;
