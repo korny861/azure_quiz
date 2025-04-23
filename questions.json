@@ -670,5 +670,497 @@
         "correctAnswer": "SaaS",
         "explanation": "SaaS liefert Softwareanwendungen über das Internet, typischerweise auf Abonnementbasis. Der Anbieter verwaltet die gesamte zugrunde liegende Infrastruktur und Plattform.",
         "id": 56
-    }
+    },
+    {
+    "question": "Wozu dient die Verwendung des Microsoft Graph PowerShell SDK zum Verwalten von Microsoft Entra-Objekten?",
+    "options": [
+      "Bereitstellen einer grafischen Benutzeroberfläche zum Verwalten von Microsoft Entra-Objekten.",
+      "Ermöglicht die Automatisierung und Validieren der Erstellung und Löschung von Umgebungen, um sichere und stabile Anwendungshostingplattformen bereitzustellen.",
+      "Erhöhen der Sicherheit von Microsoft Entra durch Erzwingen der Multi-Faktor-Authentifizierung.",
+      "Unbefugten Zugriff auf Microsoft Entra-Objekte verhindern."
+    ],
+    "correctAnswer": "Ermöglicht die Automatisierung und Validieren der Erstellung und Löschung von Umgebungen, um sichere und stabile Anwendungshostingplattformen bereitzustellen.",
+    "explanation": "Das Microsoft Graph PowerShell SDK dient dazu, die Erstellung und Löschung von Umgebungen zu automatisieren und zu validieren, um sichere und stabile Anwendungshostingplattformen bereitzustellen.",
+    "id": 1
+  },
+  {
+    "question": "Was ist der Hauptzweck der Erstellung von Gastbenutzerkonten in MS Entra ID?",
+    "options": [
+      "Verwalten eines internen Mitarbeiterzugriffs auf Entra-Ressourcen.",
+      "Bereitstellen eines temporären Administratorzugriffs auf Entra-Dienste.",
+      "Zuweisen von Benutzern zu Berechtigungen von einem anderen Entra-Mandanten oder MS-Konto.",
+      "Ermöglichen des Zugriffs von externen Partnern auf interne Ressourcen."
+    ],
+    "correctAnswer": "Zuweisen von Benutzern zu Berechtigungen von einem anderen Entra-Mandanten oder MS-Konto.",
+    "explanation": "Gastbenutzerkonten in MS Entra ID dienen hauptsächlich dazu, Benutzern von anderen Entra-Mandanten oder MS-Konten Berechtigungen zuzuweisen.",
+    "id": 2
+  },
+  {
+    "question": "Welche zwei Dienste können Sie zum Einrichten der Netzwerkkonnektivität zwischen einem lokalen Netzwerk und Azure-Ressourcen verwenden?",
+    "options": [
+      "Azure Bastion",
+      "Azure Firewall",
+      "Azure Gateway und Express Route",
+      "Azure Traffic Manager"
+    ],
+    "correctAnswer": "Azure Gateway und Express Route",
+    "explanation": "Azure Gateway und Express Route sind beides Dienste, die verwendet werden können, um die Netzwerkkonnektivität zwischen einem lokalen Netzwerk und Azure-Ressourcen einzurichten.",
+    "id": 3
+  },
+  {
+    "question": "Was können Sie verwenden, um Mac- und Android-Benutzern Zugriff auf Microsoft-Umgebungen bereitzustellen, die Windows-basierte Anwendungen ausführen?",
+    "options": [
+      "Azure Container Instances",
+      "Überprüfung auf",
+      "Azure Logic Apps",
+      "Azure Virtual Desktop"
+    ],
+    "correctAnswer": "Azure Virtual Desktop",
+    "explanation": "Azure Virtual Desktop ermöglicht es, Windows-basierte Anwendungen für Mac- und Android-Benutzer bereitzustellen.",
+    "id": 4
+  },
+  {
+    "question": "Welchen Speicherdienst sollten Sie verwenden, um tausende Dateien mit Text und Bildern zu speichern?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Disk Storage",
+      "Azure Queue Storage",
+      "Azure Tabellenspeicher"
+    ],
+    "correctAnswer": "Azure Blob Storage",
+    "explanation": "Azure Blob Storage ist ideal zum Speichern großer Mengen unstrukturierter Daten wie Text- und Bilddateien.",
+    "id": 5
+  },
+  {
+    "question": "Welcher Speicherdienst bietet vollständig verwaltete Dateifreigaben in der Cloud, auf die über das Protokoll Server Message Block (SMB) zugegriffen werden kann?",
+    "options": [
+      "Azure Disk Storage",
+      "Azure Files",
+      "Azure Queue Storage",
+      "Azure Tabellenspeicher"
+    ],
+    "correctAnswer": "Azure Files",
+    "explanation": "Azure Files bietet vollständig verwaltete Dateifreigaben in der Cloud, auf die über das SMB-Protokoll zugegriffen werden kann.",
+    "id": 6
+  },
+  {
+    "question": "Welche beiden Szenarios sind häufige Anwendungsfälle für Azure Blog Storage?",
+    "options": [
+      "Hosten von SPX-Dateien für eine Webseite",
+      "Einbunden einer Dateispeicherfreigabe für den Zugriff als virtuelles Laufwerk auf mehreren virtuellen Computern",
+      "Speichern von Bildern oder Dokumenten direkt in einem Browser und Speichern von Daten für die Sicherung und Wiederherstellung",
+      "Verarbeitung von Transaktionsdaten in Echtzeit"
+    ],
+    "correctAnswer": "Speichern von Bildern oder Dokumenten direkt in einem Browser und Speichern von Daten für die Sicherung und Wiederherstellung",
+    "explanation": "Azure Blob Storage eignet sich gut zum Speichern von Daten für Webanwendungen und zur Sicherung und Wiederherstellung von Daten.",
+    "id": 7
+  },
+  {
+    "question": "Welche Azure Blog Storage-Dienstebene hat die höchsten Speicherkosten, aber auch die schnellsten Zugriffszeiten zum Lesen und Schreiben von Daten?",
+    "options": [
+      "Archivieren",
+      "Kalt",
+      "Heiß",
+      "Gering"
+    ],
+    "correctAnswer": "Heiß",
+    "explanation": "Die Dienstebene 'Heiß' bietet die schnellsten Zugriffszeiten, ist aber auch die teuerste.",
+    "id": 8
+  },
+  {
+    "question": "Welchen Azure-Storage Dienst sollten sie zum Speichern unstrukturierter Daten (z.B. Bilder) verwenden, die auf Webseiten bereitgestellt werden?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Disk Storage",
+      "Azure Queue Storage",
+      "Azure-Tabellenspeicher"
+    ],
+    "correctAnswer": "Azure Blob Storage",
+    "explanation": "Azure Blob Storage ist ideal zum Speichern unstrukturierter Daten wie Bilder, die auf Webseiten bereitgestellt werden.",
+    "id": 9
+  },
+  {
+    "question": "Welche zwei Protokolle können den Zugriff auf Azure-Dateifreigaben verwendet werden?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "Network File System (NFS) und Server Message Block (SMB)",
+      "Simple Mail Transfer Protocol (SMTP)"
+    ],
+    "correctAnswer": "Network File System (NFS) und Server Message Block (SMB)",
+    "explanation": "Azure-Dateifreigaben können über die Protokolle NFS und SMB aufgerufen werden.",
+    "id": 10
+  },
+  {
+    "question": "Was ist der Zweck von Defense in Depth?",
+    "options": [
+      "damit Sie Ressourcen, die mit bestimmten Workloads, Umgebungen, Geschäftsbereichen und Besitzern verknüpft sind, ermitteln und Aktionen für diese ausführen können.",
+      "Damit Sie Ressourcen und Empfehlungen zur Verbesserung der Zuverlässigkeit und Leistung auswerten können.",
+      "Zum Verwalten von Richtlinien, die Ressourcen steuern oder überwachen, damit die Konfigurationen mit den Unternehmensstandards konform bleiben.",
+      "Zur Verwendung mehrer Schutzebenen, um zu verhindern, dass auf Informationen von nicht autorisierten Benutzern zugegriffen wird."
+    ],
+    "correctAnswer": "Zur Verwendung mehrer Schutzebenen, um zu verhindern, dass auf Informationen von nicht autorisierten Benutzern zugegriffen wird.",
+    "explanation": "Defense in Depth verwendet mehrere Schutzebenen, um den unbefugten Zugriff auf Informationen zu verhindern.",
+    "id": 11
+  },
+  {
+    "question": "Was können Sie verwenden, um sicherzustellen, dass ein Benutzer nur auf Anwendungen von konformen Diensten zugreifen kann?",
+    "options": [
+      "Bedingter Zugriff",
+      "Hybridentität",
+      "Mehrstufige Authentifizierung (Multifactor Authentication, MFA)",
+      "Einmaliges Anmelden (Single-Sign-On, SSO)"
+    ],
+    "correctAnswer": "Bedingter Zugriff",
+    "explanation": "Bedingter Zugriff ermöglicht es, den Zugriff auf Anwendungen basierend auf der Konformität des Geräts oder Dienstes zu steuern.",
+    "id": 12
+  },
+  {
+    "question": "Auf welches Objekt bzw. Welche Ebene wird eine Rolle der rollenbasierten Zugriffssteuerung von Azure (Role Based Account Control) angewendet?",
+    "options": [
+      "Policy",
+      "Ressourcensperre",
+      "Ressourcentag",
+      "Scope (Bereich)"
+    ],
+    "correctAnswer": "Scope (Bereich)",
+    "explanation": "Eine Azure RBAC-Rolle wird auf einen Bereich angewendet. Dabei handelt es sich um eine Ressource oder eine Gruppe von Ressourcen, für die dieser Zugriff gilt.",
+    "id": 13
+  },
+  {
+    "question": "Was ist eine Azure Resource Manager-Vorlage?",
+    "options": [
+      "Eine Reihe von Azure CLI-Befehlen zum Bereitstellen einer Infrastruktur in Azure.",
+      "Eine JSON-Datei (JavaScript Object Notation), die die Infrastruktur und Konfiguration für Ihre Bereitstellung definiert.",
+      "Ein in Azure Resource Manager befindliches Skript zum Verwalten Ihres Azure-Speicherkontos.",
+      "Ein Tool zur Überwachung der Leistung von Azure-Ressourcen."
+    ],
+    "correctAnswer": "Eine JSON-Datei (JavaScript Object Notation), die die Infrastruktur und Konfiguration für Ihre Bereitstellung definiert.",
+    "explanation": "Eine Azure Resource Manager-Vorlage ist eine JSON-Datei, die die Infrastruktur und Konfiguration für Ihre Bereitstellung definiert.",
+    "id": 14
+  },
+  {
+    "question": "Welches der folgenden Möglichkeiten ist kein Element einer Azure Resource Manager-Vorlage?",
+    "options": [
+      "idempotent",
+      "schema",
+      "parameters",
+      "variables"
+    ],
+    "correctAnswer": "idempotent",
+    "explanation": "Idempotenz ist eine Eigenschaft von Azure Resource Manager-Vorlagen, aber kein Element der Vorlage selbst.",
+    "id": 15
+  },
+  {
+    "question": "Azure Resource Manager-Vorlagen sind idempotent. Dies bedeutet, dass, wenn Sie eine Vorlage ohne Änderungen ein zweites Mal ausführen:",
+    "options": [
+      "Azure Resource Manager stellt neue Ressourcen als Kopien der zuvor bereitgestellten Ressourcen bereit.",
+      "Azure Resource Manager nimmt keine Änderungen an den bereitgestellten Ressourcen vor.",
+      "Azure Resource Manager löscht die zuvor bereitgestellten Ressourcen und stellt sie erneut bereit.",
+      "Azure Resource Manager aktualisiert die Metadaten der bereitgestellten Ressourcen."
+    ],
+    "correctAnswer": "Azure Resource Manager nimmt keine Änderungen an den bereitgestellten Ressourcen vor.",
+    "explanation": "Idempotenz bedeutet, dass eine zweite Ausführung der Vorlage keine Änderungen vornimmt, wenn keine Änderungen an der Vorlage vorgenommen wurden.",
+    "id": 16
+  },
+  {
+    "question": "Welche Strategie verwendet zahlreiche Mechanismen, um das Ausmaß von Angriffen abzudämpfen, durch die unberechtigter Zugriff auf Daten erlangt werden soll?",
+    "options": [
+      "Tiefgehende Verteidigung",
+      "Verteilte Denial-of-Service (DDoS)",
+      "Zugriff mit geringsten Rechten",
+      "Netzwerksegmentierung"
+    ],
+    "correctAnswer": "Tiefgehende Verteidigung",
+    "explanation": "Tiefgehende Verteidigung verwendet mehrere Mechanismen, um das Ausmaß von Angriffen zu minimieren.",
+    "id": 17
+  },
+  {
+    "question": "Welches MS Entra-Feature können Sie verwenden, um sicherzustellen, dass Benutzer nur über genehmigte Clientanwendungen auf MS Office 365 zugreifen können?",
+    "options": [
+      "Rollenbasierte Azure-Zugriffssteuerung (RRBAC)",
+      "Bedingter Zugriff",
+      "Multifaktor Authentifizierung",
+      "Single Sign on"
+    ],
+    "correctAnswer": "Bedingter Zugriff",
+    "explanation": "Bedingter Zugriff ist das richtige Feature, um sicherzustellen, dass Benutzer nur über genehmigte Clientanwendungen auf Microsoft Office 365 zugreifen können.",
+    "id": 18
+  },
+  {
+    "question": "Was können Sie verwenden, um sicherzustellen, dass Benutzer sich mithilfe der Multifaktor-Authentifizierung authentifizieren, wenn die versuchen, sich von einem bestimmten Standort anzumelden?",
+    "options": [
+      "Verwaltungseinheiten",
+      "Rollenbasierte Zugriffssteuerung (Role Based Access Control, RBAC) für Azure-Ressourcen",
+      "Bedingter Zugriff",
+      "Einmaliges Anmelden"
+    ],
+    "correctAnswer": "Bedingter Zugriff",
+    "explanation": "Bedingter Zugriff kann Signale verwenden, um Informationen zu Authentifizierungsversuchen zu ermitteln und dann zu bestimmen, ob der Zugriff blockiert oder zusätzliche Überprüfungen erforderlich sind.",
+    "id": 19
+  },
+  {
+    "question": "Welche zwei Attribute sind Merkmale, des Private Cloud-Bereitstellungsmodells?",
+    "options": [
+      "Anwendungen können bereitgestellt und die Bereitstellung für diese kann schnell aufgehoben werden",
+      "Hardware muss erworben werden und Das Unternehmen hat die vollständige Kontrolle über physische Ressourcen und Sicherheit",
+      "Organisationen zahlen für das, was sie nutzen",
+      "Der Cloudanbieter ist für die Wartung der Infrastruktur verantwortlich"
+    ],
+    "correctAnswer": "Hardware muss erworben werden und Das Unternehmen hat die vollständige Kontrolle über physische Ressourcen und Sicherheit",
+    "explanation": "In einer Private Cloud muss die Hardware erworben werden, und das Unternehmen hat die vollständige Kontrolle über die physischen Ressourcen und die Sicherheit.",
+    "id": 20
+  },
+  {
+    "question": "Welche beiden grundlegenden Dienste werden von allen Cloudanbietern bereitgestellt?",
+    "options": [
+      "Anwendungsentwicklung",
+      "Colocation",
+      "Compute und Speicher",
+      "Netzwerküberwachung"
+    ],
+    "correctAnswer": "Compute und Speicher",
+    "explanation": "Compute- und Speicherdienste sind die Grundlage aller Cloud-Angebote.",
+    "id": 21
+  },
+  {
+    "question": "Was sind zwei Merkmale des Public Cloud-Bereitstellungsmodells?",
+    "options": [
+      "Computerressourcen werden ausschließlich von den Benutzern aus einer Organisation verwendet",
+      "Die Hardware befindet sich physisch im Rechenzentrum einer Organisation",
+      "Server und Speicher sind im Besitz eines externen Cloudanbieters und werden auch von diesem betrieben und Dienste werden über das Internet angeboten und sind für alle Benutzer verfügbar, die sie erwerben möchten",
+      "Hohe Vorabinvestitionen sind erforderlich"
+    ],
+    "correctAnswer": "Server und Speicher sind im Besitz eines externen Cloudanbieters und werden auch von diesem betrieben und Dienste werden über das Internet angeboten und sind für alle Benutzer verfügbar, die sie erwerben möchten",
+    "explanation": "In der Public Cloud sind Server und Speicher im Besitz eines externen Anbieters, und die Dienste sind über das Internet verfügbar.",
+    "id": 22
+  },
+  {
+    "question": "Was sind zwei Merkmale des verbrauchsbasierten Modells?",
+    "options": [
+      "Hohe Investitionsausgaben",
+      "Keine Anschaffungskosten und Die Möglichkeit, nicht mehr für Ressourcen zu bezahlen, die nicht mehr verwendet werden",
+      "Erfordert den Kauf und die Verwaltung physischer Infrastruktur",
+      "Langfristige Verträge sind erforderlich"
+    ],
+    "correctAnswer": "Keine Anschaffungskosten und Die Möglichkeit, nicht mehr für Ressourcen zu bezahlen, die nicht mehr verwendet werden",
+    "explanation": "Das verbrauchsbasierte Modell zeichnet sich durch fehlende Anschaffungskosten und die Möglichkeit aus, nur für tatsächlich genutzte Ressourcen zu zahlen.",
+    "id": 23
+  },
+  {
+    "question": "Weshalb ist Cloud computing oft günstiger im Vergleich zu lokalen Rechenzentren?",
+    "options": [
+      "Clouddienstangebote weisen eingeschränkte Funktionen auf",
+      "Die Netzwerkbandbreite ist kostenlos",
+      "Dienste werden nur an einem einzigen geografischen Standort angeboten",
+      "Sie werden nur das in Rechnung gestellt, was Sie verbrauchen"
+    ],
+    "correctAnswer": "Sie werden nur das in Rechnung gestellt, was Sie verbrauchen",
+    "explanation": "Cloud Computing ist oft günstiger, da Sie nur für die tatsächlich verbrauchten Ressourcen zahlen.",
+    "id": 24
+  },
+  {
+    "question": "Was ist ein Vorteil von Cloud computing im Vergleich zu lokalen Bereitstellungen?",
+    "options": [
+      "Sie können schneller skaliert werden",
+      "Sie können von mehreren Arbeitsstationen aus arbeiten",
+      "Sie haben Vollzugriff im Falle eines Internetausfalls",
+      "Sie besitzen Ihre CPUs"
+    ],
+    "correctAnswer": "Sie können schneller skaliert werden",
+    "explanation": "Cloud Computing bietet den Vorteil, dass Ressourcen schnell und einfach skaliert werden können.",
+    "id": 25
+  },
+  {
+    "question": "Die Erhöhung von Computerkapazität für eine App durch Hinzufügen von RAM oder CPUs zu einer VM wird (Antwortauswahl) genannt.",
+    "options": [
+      "Notfallwiederherstellung",
+      "Hochverfügbarkeit",
+      "Horizontale Skalierung",
+      "Vertikale Skalierung"
+    ],
+    "correctAnswer": "Vertikale Skalierung",
+    "explanation": "Vertikale Skalierung bezieht sich auf die Erhöhung der Kapazität einer einzelnen VM durch Hinzufügen von Ressourcen wie RAM oder CPUs.",
+    "id": 26
+  },
+  {
+    "question": "Die schnelle Bereitstellung und Konfiguration cloudbasierter Ressourcen bei Änderungen der Geschäftsanforderungen wird (Antwortauswahl) genannt.",
+    "options": [
+      "Flexibilität",
+      "Elastizität",
+      "Hochverfügbarkeit",
+      "Skalierbarkeit"
+    ],
+    "correctAnswer": "Flexibilität",
+    "explanation": "Flexibilität oder Agilität bedeutet, dass Sie cloudbasierte Ressourcen bereitstellen und diese schnell konfigurieren können, wenn sich Ihre App-Anforderungen ändern.",
+    "id": 27
+  },
+  {
+    "question": "Ein Beispiel von (Antwortauswahl) ist die automatische Skalierung einer Anwendung, um sicherzustellen, dass die Anwendung über die erforderlichen Ressourcen verfügt, um Kundenanforderungen zu erfüllen.",
+    "options": [
+      "Flexibilität",
+      "Elastizität",
+      "Geografische Verteilung",
+      "Hochverfügbarkeit"
+    ],
+    "correctAnswer": "Elastizität",
+    "explanation": "Elastizität bezieht sich auf die Fähigkeit, Ressourcen automatisch zu skalieren, um den Kundenanforderungen gerecht zu werden.",
+    "id": 28
+  },
+  {
+    "question": "In welchen Bereitstellungsmodellen sind Kunden für die Verwaltung von Betriebssystemen verantwortlich, die Anwendungen hosten?",
+    "options": [
+      "IaaS (Infrastructure as a Service) und Lokal",
+      "Lokal",
+      "PaaS (Platform as a Service)",
+      "SaaS (Software as a Service)"
+    ],
+    "correctAnswer": "IaaS (Infrastructure as a Service) und Lokal",
+    "explanation": "In IaaS- und lokalen Bereitstellungen ist der Kunde für die Verwaltung der Betriebssysteme verantwortlich.",
+    "id": 29
+  },
+  {
+    "question": "In welchem Clouddienstmodell erhalten Sie die meiste Kontrolle über die Hardware, auf der die Anwendung ausgeführt wird?",
+    "options": [
+      "IaaS (Infrastructure as a Service)",
+      "PaaS (Platform as a Service)",
+      "SaaS (Software as a Service)",
+      "FaaS (Function as a Service)"
+    ],
+    "correctAnswer": "IaaS (Infrastructure as a Service)",
+    "explanation": "IaaS bietet die meiste Kontrolle über die zugrunde liegende Hardware.",
+    "id": 30
+  },
+  {
+    "question": "Für was ist der Kunde in einem Software as a Service Modell verantwortlich?",
+    "options": [
+      "Daten und Zugriff",
+      "Speicher",
+      "Runtime",
+      "Mit verwalteter Konformität"
+    ],
+    "correctAnswer": "Daten und Zugriff",
+    "explanation": "Im SaaS-Modell ist der Kunde hauptsächlich für seine Daten und den Zugriff darauf verantwortlich.",
+    "id": 31
+  },
+  {
+    "question": "Ihre Organisation erstellt eine benutzerdefinierte Anwendung. Sie müssen sich auf eine Anwendungsentwicklung und weniger auf die Konfiguration von Servern konzentrieren. Welches Clouddienstmodell sollten Sie nutzen?",
+    "options": [
+      "IaaS (Infrastructure as a Service)",
+      "PaaS (Platform as as Servie)",
+      "SaaS (Software as a Service)",
+      "BaaS (Backend as a Service)"
+    ],
+    "correctAnswer": "PaaS (Platform as as Servie)",
+    "explanation": "PaaS ermöglicht es, sich auf die Anwendungsentwicklung zu konzentrieren, ohne sich um die Serverkonfiguration kümmern zu müssen.",
+    "id": 32
+  },
+  {
+    "question": "Welche Art von Clouddienst fungiert als virtuelles Netzwerk?",
+    "options": [
+      "IaaS (Infrastructure as a Service)",
+      "PaaS (Platform as a Service)",
+      "SaaS (Software a a Service)",
+      "NaaS (Network as a Service)"
+    ],
+    "correctAnswer": "IaaS (Infrastructure as a Service)",
+    "explanation": "IaaS bietet die Möglichkeit, virtuelle Netzwerke und andere Netzwerkinfrastrukturen zu erstellen und zu verwalten.",
+    "id": 33
+  },
+  {
+    "question": "Sie müssen die Kosten zum Ausführen einer Anwendung in einem lokalen Rechenzentrum mit den Kosten zum Ausführen der Anwendung in Azure vergleichen. Was können Sie zur Unterstützung verwenden?",
+    "options": [
+      "Azure Advisor",
+      "Azure Cost Management",
+      "Azure Preisrechner",
+      "Gesamtkostenrechner (TCO Rechner)"
+    ],
+    "correctAnswer": "Gesamtkostenrechner (TCO Rechner)",
+    "explanation": "Der TCO-Rechner (Total Cost of Ownership) hilft beim Vergleich der Kosten zwischen lokalen Rechenzentren und Azure.",
+    "id": 34
+  },
+  {
+    "question": "Welche zwei Features sind über Azure Cost Management + Billig verfügbar?",
+    "options": [
+      "Erstellen und Verwalten von Budgets und Generieren von Verlaufsberichten und Prognostizieren der zukünftigen Nutzung",
+      "Einschätzen der Gesamtbetriebskossten, bevor Ressourcen bereitgestellt werden",
+      "Angabe von ermäßigten Preisen, wenn Sie im Voraus bezahlen",
+      "Automatisches Herunterfahren nicht verwendeter Ressourcen"
+    ],
+    "correctAnswer": "Erstellen und Verwalten von Budgets und Generieren von Verlaufsberichten und Prognostizieren der zukünftigen Nutzung",
+    "explanation": "Azure Cost Management ermöglicht das Erstellen und Verwalten von Budgets sowie die Generierung von Berichten und Prognosen.",
+    "id": 35
+  },
+  {
+    "question": "Sie Verfügen über einen virtuellen Azure-Computer, auf den täglich nur zwischen 9:00 Uhr und 17:00 Uhr zugegriffen wird. Was sollten Sie tun, um Kosten zu minimieren und gleichzeitig die zugeordneten Festplatten und Daten beizubehalten?",
+    "options": [
+      "Heben Sie die Zuordnung des virtuellen Computers auf, wenn sie nicht benötigt wird.",
+      "Löschen Sie den virtuellen Computer, wenn er nicht benötigt wird.",
+      "Implementieren von Privileged Identity Management",
+      "Ändern Sie die Größe der VM auf eine kleine Größe"
+    ],
+    "correctAnswer": "Heben Sie die Zuordnung des virtuellen Computers auf, wenn sie nicht benötigt wird.",
+    "explanation": "Durch die Aufhebung der Zuordnung des virtuellen Computers werden die Compute-Kosten reduziert, während die Festplatten und Daten erhalten bleiben.",
+    "id": 36
+  },
+  {
+    "question": "Sie müssen die Kosten von Ressourcen verschiedene Gruppen innerhalb einer Organisation zuordnen, ohne den Standort der Ressourcen zu ändern. Was sollten Sie verwenden?",
+    "options": [
+      "Verwaltungseinheiten",
+      "Ressourcengruppen",
+      "Ressourcentags",
+      "Abonnements"
+    ],
+    "correctAnswer": "Ressourcentags",
+    "explanation": "Ressourcentags ermöglichen die Zuordnung von Kosten zu verschiedenen Gruppen innerhalb einer Organisation.",
+    "id": 37
+  },
+  {
+    "question": "Ihre Organisation möchte verschiedene virtuelle Computer für die Produktion bereitstellen. Die konsistente Ressourcenauslastung über das Jahr vorweisen. Was können Sie tun, um die Kosten der virtuellen Computer zu minimieren, ohne die Funktionalität dieser einzuschränken?",
+    "options": [
+      "Azure Monitor Warnungen",
+      "Azure Reservierungen",
+      "Ausgabenlimits",
+      "Azure Hybrid Benefit"
+    ],
+    "correctAnswer": "Azure Reservierungen",
+    "explanation": "Azure-Reservierungen bieten reduzierte Preise für virtuelle Computer mit konsistenter Auslastung.",
+    "id": 38
+  },
+  {
+    "question": "Was kann auf eine Ressource angewendet werden, um versehentliche Löschungen zu verhindern?",
+    "options": [
+      "eine Ressourcensperre",
+      "Ein Ressourcentag",
+      "Eine Richtlinie",
+      "Eine Azure Reservierung"
+    ],
+    "correctAnswer": "eine Ressourcensperre",
+    "explanation": "Ressourcensperren verhindern versehentliche Änderungen oder Löschungen von Ressourcen.",
+    "id": 39
+  },
+  {
+    "question": "Was können Sie verwenden, um sicherzustellen, dass neue und vorhandene Azure-Ressourcen mit Unternehmensstandards konform bleiben?",
+    "options": [
+      "Azure Advisor",
+      "Azur Policy",
+      "Ressourcensperren",
+      "Ressourcentags"
+    ],
+    "correctAnswer": "Azur Policy",
+    "explanation": "Azure Policy ermöglicht es, Richtlinien zu erstellen, die sicherstellen, dass Azure-Ressourcen den Unternehmensstandards entsprechen.",
+    "id": 40
+  },
+  {
+    "question": "Wie müssen eine Lösung für die Bereitstellungen virtueller Azure Computer empfehlen. Die Lösung muss Unternehmensstandards für die virtuellen Computer erzwingen. Was sollte in der Empfehlung erhalten sein?",
+    "options": [
+      "Microsoft Intune-Complience-Richtlinie",
+      "Azure Cost-Mana",
+      "Azure Policy",
+      "Azure Blueprints"
+    ],
+    "correctAnswer": "Azure Policy",
+    "explanation": "Azure Policy stellt sicher, dass neue und bestehende Azure-Ressourcen mit den Unternehmensstandards übereinstimmen.",
+    "id": 41
+  }
 ]
